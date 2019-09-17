@@ -1,3 +1,70 @@
-* {
+
+/*
+colors:
+#523B28
+#EB6D00
+#D19866
+#574230
+#A1754F
+ */
+
+/* {
     outline: 1px solid lightgrey !important;
+}*/
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.menu-margin {
+    margin-top: 30px;
+}
+h1 {
+    text-align: center;
+    background-color: #EB6D00;
+    color: white;
+    padding: 1%;
+}
+.content-text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.content-text > p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+}
+.content-text > p::first-letter {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+.header-text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-img-caption {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+.text-img-caption > p:first-of-type {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.img-background {
+    background-color: #D19866;
+}
+.content-padding {
+    padding: 3% 3% 3% 3%;
+}
+.inner-padding {
+    padding: 2% 10%;
+}
+.footer-style {
+    background-color: #A1754F;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
 }
